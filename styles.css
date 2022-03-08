@@ -26,7 +26,8 @@ footer {
 }
 
 .user-form {
-    width: 100%;
+    margin-top: 10%;
+    width: 90%;
     max-width: 700px;
 }
 
@@ -53,7 +54,7 @@ footer {
 }
 
 .card {
-    max-width: 800px;
+    max-width: 700px;
     background-color: #4c2885;
     border-radius: 20px;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0,0,0,0.1);
@@ -111,10 +112,20 @@ footer {
 
 @media(max-width: 500px) {
     .card {
+        margin: auto;
+        width: 90%;
         flex-direction: column;
         align-items: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
     }
     .user-form {
+        margin: auto;
         max-width: 400px;
+    }
+    .user-info {
+        color: #eee;
+        margin-left: 0rem;
     }
 }
