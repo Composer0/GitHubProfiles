@@ -128,4 +128,6 @@ footer {
         color: #eee;
         margin-left: 0rem;
     }
+    .user-info ul li strong {
+    font-size: 0.5rem;
 }
